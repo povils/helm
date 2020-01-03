@@ -22,10 +22,10 @@ import (
 	"strings"
 	"testing"
 
-	"helm.sh/helm/v3/internal/test/ensure"
-	"helm.sh/helm/v3/pkg/getter"
-	"helm.sh/helm/v3/pkg/repo"
-	"helm.sh/helm/v3/pkg/repo/repotest"
+	"github.com/povils/helm/v3/internal/test/ensure"
+	"github.com/povils/helm/v3/pkg/getter"
+	"github.com/povils/helm/v3/pkg/repo"
+	"github.com/povils/helm/v3/pkg/repo/repotest"
 )
 
 func TestUpdateCmd(t *testing.T) {

@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package main // import "helm.sh/helm/v3/cmd/helm"
+package main // import "github.com/povils/helm/v3/cmd/helm"
 
 import (
 	"fmt"
@@ -23,10 +23,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"helm.sh/helm/v3/cmd/helm/require"
-	"helm.sh/helm/v3/internal/experimental/registry"
-	"helm.sh/helm/v3/pkg/action"
-	"helm.sh/helm/v3/pkg/cli/output"
+	"github.com/povils/helm/v3/cmd/helm/require"
+	"github.com/povils/helm/v3/internal/experimental/registry"
+	"github.com/povils/helm/v3/pkg/action"
+	"github.com/povils/helm/v3/pkg/cli/output"
 )
 
 const (

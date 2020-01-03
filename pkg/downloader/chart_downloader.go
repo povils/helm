@@ -26,11 +26,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"helm.sh/helm/v3/internal/urlutil"
-	"helm.sh/helm/v3/pkg/getter"
-	"helm.sh/helm/v3/pkg/helmpath"
-	"helm.sh/helm/v3/pkg/provenance"
-	"helm.sh/helm/v3/pkg/repo"
+	"github.com/povils/helm/v3/internal/urlutil"
+	"github.com/povils/helm/v3/pkg/getter"
+	"github.com/povils/helm/v3/pkg/helmpath"
+	"github.com/povils/helm/v3/pkg/provenance"
+	"github.com/povils/helm/v3/pkg/repo"
 )
 
 // VerificationStrategy describes a strategy for determining whether to verify a chart.

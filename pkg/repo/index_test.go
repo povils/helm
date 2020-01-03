@@ -23,10 +23,10 @@ import (
 	"strings"
 	"testing"
 
-	"helm.sh/helm/v3/pkg/cli"
-	"helm.sh/helm/v3/pkg/getter"
+	"github.com/povils/helm/v3/pkg/cli"
+	"github.com/povils/helm/v3/pkg/getter"
 
-	"helm.sh/helm/v3/pkg/chart"
+	"github.com/povils/helm/v3/pkg/chart"
 )
 
 const (

@@ -22,8 +22,8 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/release"
+	"github.com/povils/helm/v3/pkg/chartutil"
+	"github.com/povils/helm/v3/pkg/release"
 )
 
 func TestSortManifests(t *testing.T) {

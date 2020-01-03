@@ -28,12 +28,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"helm.sh/helm/v3/internal/test"
-	"helm.sh/helm/v3/pkg/chartutil"
-	kubefake "helm.sh/helm/v3/pkg/kube/fake"
-	"helm.sh/helm/v3/pkg/release"
-	"helm.sh/helm/v3/pkg/storage/driver"
-	"helm.sh/helm/v3/pkg/time"
+	"github.com/povils/helm/v3/internal/test"
+	"github.com/povils/helm/v3/pkg/chartutil"
+	kubefake "github.com/povils/helm/v3/pkg/kube/fake"
+	"github.com/povils/helm/v3/pkg/release"
+	"github.com/povils/helm/v3/pkg/storage/driver"
+	"github.com/povils/helm/v3/pkg/time"
 )
 
 type nameTemplateTestCase struct {

@@ -37,15 +37,15 @@ BINARY_VERSION ?= ${GIT_TAG}
 
 # Only set Version if building a tag or VERSION is set
 ifneq ($(BINARY_VERSION),)
-	LDFLAGS += -X helm.sh/helm/v3/internal/version.version=${BINARY_VERSION}
+	LDFLAGS += -X github.com/povils/helm/v3/internal/version.version=${BINARY_VERSION}
 endif
 
 # Clear the "unreleased" string in BuildMetadata
 ifneq ($(GIT_TAG),)
-	LDFLAGS += -X helm.sh/helm/v3/internal/version.metadata=
+	LDFLAGS += -X github.com/povils/helm/v3/internal/version.metadata=
 endif
-LDFLAGS += -X helm.sh/helm/v3/internal/version.gitCommit=${GIT_COMMIT}
-LDFLAGS += -X helm.sh/helm/v3/internal/version.gitTreeState=${GIT_DIRTY}
+LDFLAGS += -X github.com/povils/helm/v3/internal/version.gitCommit=${GIT_COMMIT}
+LDFLAGS += -X github.com/povils/helm/v3/internal/version.gitTreeState=${GIT_DIRTY}
 
 .PHONY: all
 all: build

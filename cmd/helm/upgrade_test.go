@@ -23,11 +23,11 @@ import (
 	"strings"
 	"testing"
 
-	"helm.sh/helm/v3/internal/test/ensure"
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chart/loader"
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/release"
+	"github.com/povils/helm/v3/internal/test/ensure"
+	"github.com/povils/helm/v3/pkg/chart"
+	"github.com/povils/helm/v3/pkg/chart/loader"
+	"github.com/povils/helm/v3/pkg/chartutil"
+	"github.com/povils/helm/v3/pkg/release"
 )
 
 func TestUpgradeCmd(t *testing.T) {

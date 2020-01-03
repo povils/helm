@@ -24,14 +24,14 @@ import (
 	"regexp"
 	"strings"
 
-	"helm.sh/helm/v3/pkg/releaseutil"
+	"github.com/povils/helm/v3/pkg/releaseutil"
 
 	"github.com/spf13/cobra"
 
-	"helm.sh/helm/v3/cmd/helm/require"
-	"helm.sh/helm/v3/pkg/action"
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/cli/values"
+	"github.com/povils/helm/v3/cmd/helm/require"
+	"github.com/povils/helm/v3/pkg/action"
+	"github.com/povils/helm/v3/pkg/chartutil"
+	"github.com/povils/helm/v3/pkg/cli/values"
 )
 
 const templateDesc = `

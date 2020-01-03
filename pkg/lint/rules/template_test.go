@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"helm.sh/helm/v3/pkg/lint/support"
+	"github.com/povils/helm/v3/pkg/lint/support"
 )
 
 const templateTestBasedir = "./testdata/albatross"

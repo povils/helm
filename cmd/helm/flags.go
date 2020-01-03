@@ -23,9 +23,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"helm.sh/helm/v3/pkg/action"
-	"helm.sh/helm/v3/pkg/cli/output"
-	"helm.sh/helm/v3/pkg/cli/values"
+	"github.com/povils/helm/v3/pkg/action"
+	"github.com/povils/helm/v3/pkg/cli/output"
+	"github.com/povils/helm/v3/pkg/cli/values"
 )
 
 const outputFlag = "output"
